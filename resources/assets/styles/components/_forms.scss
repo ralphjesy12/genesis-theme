@@ -17,3 +17,39 @@
   @extend .btn;
   @extend .btn-secondary;
 }
+
+.wpcf7{
+  label{
+    width: 100%;
+  }
+
+  .wpcf7-form-control-wrap{
+    input{
+      width: 100%;
+      max-width: 440px;
+    }
+  }
+  [type="text"],[type="email"]{
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #202020;
+
+    width: 100%;
+  }
+
+  [type="submit"]{
+    font-size: 16px;
+    color: #202020;
+    padding: 15px 43px;
+    border: 2px solid #202020;
+  }
+
+  textarea{
+    font-size: 16px;
+    color: #202020;
+    padding: 15px 43px;
+    border: 1px solid #202020;
+    width: 100%;
+    max-width: 440px;
+  }
+}
